@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/calorie"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/genderText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="src_atop"
+        android:text="Select your gender:"
+        android:textColor="#2D3037"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/genderGroup"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/maleButton"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/femaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/ageText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your age:" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/ageInput1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/heightText1"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:text="Enter your height (cm):"
+        android:textColor="#BFB4B4"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/heightInput1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/weightText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your weight (kg):"
+        android:textColor="#D8CDCD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/weightInput1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#774444"
+        android:text="Calculate"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultText1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:backgroundTint="#8F8B8B"
+
+        android:backgroundTintMode="screen"
+        android:textStyle="bold" />
+
+</LinearLayout>

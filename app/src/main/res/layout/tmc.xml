@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/calcule">
+
+    <TextView
+        android:id="@+id/genderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Select Gender:"
+        android:textColor="#000000"
+        android:textColorHint="#0F1010"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+
+        android:id="@+id/genderGroup"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:textColor="#000000"
+        android:textColorHint="#0F1010"
+        android:textSize="20sp"
+        android:layout_below="@id/genderLabel">
+
+        <RadioButton
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/maleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColorHint="#0F1010"
+             />
+
+        <RadioButton
+            android:textStyle="bold"
+            android:id="@+id/femaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            android:text="Female"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:textStyle="bold"
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genderGroup"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C39C9C"
+        android:backgroundTintMode="add"
+        android:hapticFeedbackEnabled="false"
+        android:hint="Age"
+        android:textSize="20sp"
+        android:textColorHint="#000000"
+        android:inputType="number" />
+
+    <EditText
+        android:textStyle="bold"
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageEditText"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:hint="Weight (kg)"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:textStyle="bold"
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (cm)"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/weightEditText"
+        android:textColorHint="#000000"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heightEditText"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#988686"
+        android:onClick="calculateCalories"
+        android:shadowColor="#853E3E"
+        android:text="Calculate"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:strokeColor="#805151" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculateButton"
+
+        android:layout_marginTop="16dp"
+        android:background="#00151010"
+        android:backgroundTint="#8F8B8B"
+
+        android:backgroundTintMode="screen"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="24sp" />
+
+</RelativeLayout>

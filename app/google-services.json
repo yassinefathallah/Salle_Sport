@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1003201249496",
+    "project_id": "salle-de-sport-8effe",
+    "storage_bucket": "salle-de-sport-8effe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003201249496:android:14246232032970f1d317ad",
+        "android_client_info": {
+          "package_name": "com.example.salle_sport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003201249496-rchu36a2i8s7hqpcq2k84v44qrri5tcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtPaJGISfAWLBHaqdRz9TXJ_OxSjwPI0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003201249496-rchu36a2i8s7hqpcq2k84v44qrri5tcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

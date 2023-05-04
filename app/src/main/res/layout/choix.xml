@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/choix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnCalculerTMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7A4949"
+        android:text="Calculer le TMC" />
+
+    <Button
+        android:backgroundTint="#7A4949"
+        android:id="@+id/btnCalculerProteines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer les protéines nécessaires"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:backgroundTint="#7A4949"
+        android:id="@+id/btnCalculerCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer les calories brûlées"
+     />
+
+</LinearLayout>
